@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Werewolf Unleashed</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <h1><a href="./main.html">WereWolf Unleashed</a></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="./howto.html">How to Play</a></li>
+                <li><a href="./create.html">Create Game</a></li>
+                <li><a href="#">Join Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-create">
+            <div class="hero-content">
+                <h2>Game Options</h2>
+                <p class="option">Number of Players : </p><input type="number" max="20" min="0" value="0">
+                <p class="info">If more players join random roles will be given</p>
+                <p class="option">Game Version : </p><input list="gametype" name="Game Mode" placeholder="-- Please Choose an Option --">
+                <datalist id="gametype">
+                    <option value="Classic"></option>
+                    <option></option>
+                </datalist>
+                <p style="margin-top: 1.5rem; margin-bottom: 0;">Roles :</p>
+                <div class="flex-container">
+                    <div class="flex-el">
+                        <img src="./assets/werewolf.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Werewolf</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="number" class="nb-role" value="0" max="20" min="0">
+                        </div>
+                    </div>
+                    <div class="flex-el">
+                        <img src="./assets/villager.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Villager</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="number" class="nb-role" value="0" max="20" min="0">
+                        </div>
+                    </div>
+                    <div class="flex-el">
+                        <img src="./assets/seer.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Seer</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="checkbox" class="nb-role" value="0" checked="True">
+                        </div>
+                    </div>
+                    <div class="flex-el">
+                        <img src="./assets/thief.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Thief</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="checkbox" class="nb-role" value="0">
+                        </div>
+                    </div>
+                    <div class="flex-el">
+                        <img src="./assets/hunter.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Hunter</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="checkbox" class="nb-role" value="0">
+                        </div>
+                    </div>
+                    <div class="flex-el">
+                        <img src="./assets/cupido.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Cupido</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="checkbox" class="nb-role" value="0">
+                        </div>
+                    </div>
+                    <div class="flex-el">
+                        <img src="./assets/witch.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Witch</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="checkbox" class="nb-role" value="0">
+                        </div>
+                    </div>
+                    <div class="flex-el">
+                        <img src="./assets/little-girl.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Little Girl</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="checkbox" class="nb-role" value="0">
+                        </div>
+                    </div>
+                </div>
+                <p class="info">Random roles will be added/removed if there are more/less players than the roles indicated above.</p>
+                <p style="margin-top: 1.5rem; margin-bottom: 0;">Attributes :</p>
+                <div class="flex-container">
+                    <div class="flex-el">
+                        <img src="./assets/mayor.svg" class="role-img-small">
+                        <div class="container-nb-role">
+                            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                                <p class="info">Mayor</p>
+                                <img src="./assets/info-circle.svg" class="nb-role-img-i">
+                            </div>
+                            <input type="checkbox" class="nb-role" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+</body>
+<script type="module" src="./js/main.js"></script>
+</html>

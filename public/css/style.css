@@ -1,0 +1,206 @@
+body {
+    font-family: 'trebuchet ms', sans-serif;
+    background-color: #F0EDEB;
+    color: #F0EDEB;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.nav-brand h1 {
+    color: #F0EDEB;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 1rem;
+}
+
+.nav-menu li a {
+    color: #F0EDEB;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+}
+
+.nav-menu li a:hover {
+    color: #B22222;
+}
+
+header {
+    background-color: #0D3B32;
+}
+
+a {
+    text-decoration: none;
+    color: #F0EDEB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    padding: 4rem 0;
+    text-align: center;
+    color: black;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: black;
+}
+
+.hero-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: black;
+}
+
+.hero-content h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    color: black;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.action-buttons a {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#create-game {
+    background-color: #B22222;
+    color: #F0EDEB;
+}
+
+#join-game {
+    background-color: #B22222;
+    color: #F0EDEB;
+    margin-left: 1rem;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #1C6843; /* Olive Green */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer li a {
+    font-size: 0.9rem;
+    color: #F0EDEB; /* Off-white */
+}
+
+footer li a:hover {
+    color: #B22222; /* Blood Red */
+}
+
+.small-icon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.hero-content .option {
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+.hero-content input {
+    width: 15rem;
+    background: #F0EDEB;
+}
+
+.hero-content .info {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.flex-container > div {
+    flex: 1 1 calc(50% - 1rem); /* Adjust the gap between elements by changing the value of '1rem' */
+    margin-right: 1rem; /* Adjust the gap between elements as needed */
+    box-sizing: border-box;
+}
+
+.hero-create{
+    padding: 4rem 0;
+    text-align: center;
+    color: black;
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+
+.role-img-small {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.hero-content .nb-role {
+    height: 1rem;
+    width: 5rem;
+}
+
+.flex-el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-nb-role {
+    display: flex;
+    flex-direction: column;
+}
+
+.nb-role-img-i {
+    width: 1.5rem;
+    height: 1.5rem;
+}
